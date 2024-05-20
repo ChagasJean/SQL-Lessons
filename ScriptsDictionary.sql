@@ -98,6 +98,7 @@ CREATE TABLE CLIENTE(
 	nomeCliente VARCHAR(50) NOT NULL,
 	idadeCliente INT NOT NULL,
 );
+
 /* Relacionamento 1x1 */
 CREATE TABLE ENDERECO(
 	Id_Endereco INT PRIMARY KEY AUTO_INCREMENT,
